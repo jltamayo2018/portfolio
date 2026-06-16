@@ -9,7 +9,7 @@ document.querySelectorAll('.nav-links a').forEach(a =>
   a.addEventListener('click', () => links?.classList.remove('open'))
 );
 
-const text = 'Ingeniería Telemática · Desarrollo Web · Automatización · Datos';
+const text = 'Ingeniería Telemática · Desarrollo Web · Automatización · Datos · IA';
 const type = document.getElementById('typewriter');
 let i = 0;
 
