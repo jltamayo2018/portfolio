@@ -1,1 +1,113 @@
-<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Proyectos | Jose Luis Tamayo</title><link rel="icon" href="images/favicon.svg" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/styles.css"></head><body><div id="mouse-glow"></div><nav class="navbar"><div class="container nav-inner"><a class="brand" href="index.html#inicio">Jose Luis</a><button class="menu-toggle">☰</button><div class="nav-links"><a href="index.html#inicio">Inicio</a><a href="index.html#sobre-mi">Sobre mí</a><a class="active" href="proyectos.html">Proyectos</a><a href="habilidades.html">Habilidades</a><a href="cv.html">CV</a><a href="index.html#contacto">Contacto</a></div></div></nav><header class="page-hero"><canvas id="particles"></canvas><div class="container"><h1>Proyectos</h1><p>Selección ampliada de trabajos personales, académicos y profesionales.</p></div></header><main class="container page-content"><div class="cards three"><article id="tfg" class="card reveal"><img src="images/project-tfg.svg" alt="TFG Verdad o Reto"><div class="card-body"><h3>TFG: Verdad o Reto</h3><p>Aplicación web interactiva con Django para crear packs, jugar online y compartir mediante QR.</p><ul><li>Django, autenticación y modelos relacionales.</li><li>Salas online con Jitsi y WebSockets.</li><li>Despliegue web en Render.</li></ul><div class="tags"><span>Django</span><span>Python</span><span>WebSockets</span></div></div></article><article class="card reveal"><img src="images/project-dog.svg" alt="Smart Dog Assistant"><div class="card-body"><h3>Smart Dog Assistant</h3><p>App full stack para gestionar perros, paseos, salud y peso con asistente de IA local.</p><ul><li>Backend con FastAPI y PostgreSQL.</li><li>Frontend con React y Vite.</li><li>Autenticación JWT multiusuario.</li></ul><div class="tags"><span>FastAPI</span><span>React</span><span>PostgreSQL</span></div></div></article><article class="card reveal"><img src="images/project-ey.svg" alt="Automatización EY"><div class="card-body"><h3>Automatización de procesos</h3><p>Procesamiento e integración de datos para facturas, validaciones y reporting técnico.</p><ul><li>C# y tratamiento de ficheros Excel/CSV/TXT.</li><li>Power Automate, SharePoint y Dataverse.</li><li>Documentación técnica y soporte.</li></ul><div class="tags"><span>C#</span><span>Power Automate</span><span>Datos</span></div></div></article><article class="card reveal"><img src="images/project-web.svg" alt="Administración web"><div class="card-body"><h3>Administración web WordPress</h3><p>Gestión y mejora de web corporativa con foco en contenidos, SEO, UX y rendimiento.</p><ul><li>WordPress, Divi y optimización visual.</li><li>SEO on-page y actualización de contenidos.</li><li>Resolución de incidencias técnicas.</li></ul><div class="tags"><span>WordPress</span><span>Divi</span><span>SEO</span></div></div></article><article class="card reveal"><img src="images/project-data.svg" alt="Datos"><div class="card-body"><h3>Gestión de datos</h3><p>Tratamiento y transformación de información para procesos internos y soluciones low-code.</p><ul><li>Excel, SQL y validaciones.</li><li>Power Apps y SharePoint.</li><li>Automatización de flujos.</li></ul><div class="tags"><span>SQL</span><span>Excel</span><span>Power Apps</span></div></div></article><article class="card reveal"><img src="images/project-api.svg" alt="APIs"><div class="card-body"><h3>APIs y backend</h3><p>Proyectos de backend y servicios REST desarrollados durante formación y proyectos personales.</p><ul><li>Diseño de endpoints y lógica de negocio.</li><li>Persistencia en base de datos.</li><li>Buenas prácticas de organización.</li></ul><div class="tags"><span>Python</span><span>REST API</span><span>Backend</span></div></div></article></div></main><button id="back-to-top">↑</button><footer>© 2026 · Jose Luis Tamayo Díez · Portfolio</footer><script src="js/main.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos | Jose Luis Tamayo</title>
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div id="mouse-glow"></div>
+    <nav class="navbar">
+        <div class="container nav-inner"><a class="brand" href="index.html#inicio">Jose Luis</a><button
+                class="menu-toggle">☰</button>
+            <div class="nav-links"><a href="index.html#inicio">Inicio</a><a href="index.html#sobre-mi">Sobre mí</a><a
+                    class="active" href="proyectos.html">Proyectos</a><a href="habilidades.html">Habilidades</a><a
+                    href="cv.html">CV</a><a href="index.html#contacto">Contacto</a></div>
+        </div>
+    </nav>
+    <header class="page-hero"><canvas id="particles"></canvas>
+        <div class="container">
+            <h1>Proyectos</h1>
+            <p>Selección ampliada de trabajos personales, académicos y profesionales.</p>
+        </div>
+    </header>
+    <main class="container page-content">
+        <div class="cards three">
+            <article id="tfg" class="card reveal"><img src="images/project-tfg.svg" alt="TFG Verdad o Reto">
+                <div class="card-body">
+                    <h3>TFG: Verdad o Reto</h3>
+                    <p>Aplicación web interactiva con Django para crear packs, jugar online y compartir mediante QR.</p>
+                    <ul>
+                        <li>Django, autenticación y modelos relacionales.</li>
+                        <li>Salas online con Jitsi y WebSockets.</li>
+                        <li>Despliegue web en Render.</li>
+                    </ul>
+                    <div class="tags"><span>Django</span><span>Python</span><span>WebSockets</span></div>
+                </div>
+            </article>
+            <article class="card reveal"><img src="images/project-dog.svg" alt="Smart Dog Assistant">
+                <div class="card-body">
+                    <h3>Smart Dog Assistant</h3>
+                    <p>App full stack para gestionar perros, paseos, salud y peso con asistente de IA local.</p>
+                    <ul>
+                        <li>Backend con FastAPI y PostgreSQL.</li>
+                        <li>Frontend con React y Vite.</li>
+                        <li>Autenticación JWT multiusuario.</li>
+                    </ul>
+                    <div class="tags"><span>FastAPI</span><span>React</span><span>PostgreSQL</span></div>
+                </div>
+            </article>
+            <article class="card reveal"><img src="images/project-ey.svg" alt="Automatización EY">
+                <div class="card-body">
+                    <h3>Automatización de procesos</h3>
+                    <p>Procesamiento e integración de datos para facturas, validaciones y reporting técnico.</p>
+                    <ul>
+                        <li>C# y tratamiento de ficheros Excel/CSV/TXT.</li>
+                        <li>Power Automate, SharePoint y Dataverse.</li>
+                        <li>Documentación técnica y soporte.</li>
+                    </ul>
+                    <div class="tags"><span>C#</span><span>Power Automate</span><span>Datos</span></div>
+                </div>
+            </article>
+            <article class="card reveal"><img src="images/project-web.svg" alt="Administración web">
+                <div class="card-body">
+                    <h3>Administración web WordPress</h3>
+                    <p>Gestión y mejora de web corporativa con foco en contenidos, SEO, UX y rendimiento.</p>
+                    <ul>
+                        <li>WordPress, Divi y optimización visual.</li>
+                        <li>SEO on-page y actualización de contenidos.</li>
+                        <li>Resolución de incidencias técnicas.</li>
+                    </ul>
+                    <div class="tags"><span>WordPress</span><span>Divi</span><span>SEO</span></div>
+                </div>
+            </article>
+            <article class="card reveal"><img src="images/project-data.svg" alt="Datos">
+                <div class="card-body">
+                    <h3>Gestión de datos</h3>
+                    <p>Tratamiento y transformación de información para procesos internos y soluciones low-code.</p>
+                    <ul>
+                        <li>Excel, SQL y validaciones.</li>
+                        <li>Power Apps y SharePoint.</li>
+                        <li>Automatización de flujos.</li>
+                    </ul>
+                    <div class="tags"><span>SQL</span><span>Excel</span><span>Power Apps</span></div>
+                </div>
+            </article>
+            <article class="card reveal"><img src="images/project-api.svg" alt="APIs">
+                <div class="card-body">
+                    <h3>APIs y backend</h3>
+                    <p>Proyectos de backend y servicios REST desarrollados durante formación y proyectos personales.</p>
+                    <ul>
+                        <li>Diseño de endpoints y lógica de negocio.</li>
+                        <li>Persistencia en base de datos.</li>
+                        <li>Buenas prácticas de organización.</li>
+                    </ul>
+                    <div class="tags"><span>Python</span><span>REST API</span><span>Backend</span></div>
+                </div>
+            </article>
+        </div>
+    </main><button id="back-to-top">↑</button>
+    <footer>© 2026 · Jose Luis Tamayo Díez · Portfolio</footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
