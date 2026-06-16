@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jose Luis Tamayo Díez | Portfolio</title>
+  <meta name="description" content="Portfolio de Jose Luis Tamayo Díez: Ingeniería Telemática, desarrollo web, automatización, datos y tecnología." />
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="mouse-glow"></div>
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html#inicio">Jose Luis</a>
+      <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+      <div class="nav-links">
+        <a class="active" href="index.html#inicio">Inicio</a>
+        <a href="index.html#sobre-mi">Sobre mí</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="habilidades.html">Habilidades</a>
+        <a href="cv.html">CV</a>
+        <a href="index.html#contacto">Contacto</a>
+      </div>
+    </div>
+  </nav>
+
+  <header id="inicio" class="hero">
+    <canvas id="particles"></canvas>
+    <div class="container hero-grid">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Portfolio personal</p>
+        <h1>Jose Luis Tamayo Díez</h1>
+        <p id="typewriter" class="subtitle"></p>
+        <div class="hero-actions">
+          <a class="btn primary" href="proyectos.html">Ver proyectos</a>
+          <a class="btn secondary" href="#contacto">Contactar</a>
+        </div>
+      </div>
+      <div class="hero-photo reveal">
+        <img src="images/profile-placeholder.svg" alt="Foto de Jose Luis" />
+      </div>
+    </div>
+  </header>
+
+  <section id="sobre-mi" class="section section-alt">
+    <div class="container two-columns">
+      <div class="reveal">
+        <h2>Sobre mí</h2>
+        <p class="lead">Ingeniero de Telecomunicaciones con experiencia en <span>desarrollo web, automatización de procesos, programación y gestión de datos</span>.</p>
+        <p>Actualmente busco una oportunidad para seguir creciendo en el sector tecnológico. Me considero una persona proactiva, adaptable y con alta capacidad de aprendizaje.</p>
+        <p>He trabajado en administración web con WordPress, SEO y experiencia de usuario, y también en automatización e integración de datos durante mis prácticas en EY.</p>
+        <a class="btn secondary" href="cv.html">Ver mi currículum detallado</a>
+      </div>
+      <aside class="panel reveal">
+        <h3>Datos</h3>
+        <div class="info-item"><span>📍</span><div><small>Ubicación</small><strong>España</strong></div></div>
+        <div class="info-item"><span>💼</span><div><small>Perfil</small><strong>Junior tecnológico</strong></div></div>
+        <div class="info-item"><span>⚙️</span><div><small>Intereses</small><strong>Web, Automatización, Datos, SEO</strong></div></div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Explorar</h2>
+      <div class="cards four">
+        <article class="mini-card reveal"><h3>Proyectos</h3><p>Trabajos personales y académicos.</p><a class="btn small primary" href="proyectos.html">Ver</a></article>
+        <article class="mini-card reveal"><h3>Habilidades</h3><p>Tecnologías y áreas técnicas.</p><a class="btn small primary" href="habilidades.html">Ver</a></article>
+        <article class="mini-card reveal"><h3>CV</h3><p>Currículum completo.</p><a class="btn small primary" href="cv.html">Ver</a></article>
+        <article class="mini-card reveal"><h3>TFG</h3><p>Verdad o Reto: app web interactiva.</p><a class="btn small primary" href="proyectos.html#tfg">Ver</a></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <h2>Certificaciones</h2>
+      <div class="cards three">
+        <article class="card reveal">
+          <img src="images/cert-ai.svg" alt="Certificación IA" />
+          <div class="card-body"><h3>Google: IA y productividad</h3><p>Uso práctico de inteligencia artificial para mejorar productividad y automatizar tareas.</p><div class="tags"><span>IA</span><span>Automatización</span><span>Productividad</span></div></div>
+        </article>
+        <article class="card reveal">
+          <img src="images/cert-web.svg" alt="Desarrollo web" />
+          <div class="card-body"><h3>Desarrollo web</h3><p>Experiencia creando, manteniendo y optimizando páginas web con enfoque profesional.</p><div class="tags"><span>WordPress</span><span>SEO</span><span>UX</span></div></div>
+        </article>
+        <article class="card reveal">
+          <img src="images/cert-data.svg" alt="Datos y automatización" />
+          <div class="card-body"><h3>Datos y automatización</h3><p>Tratamiento de datos, integración de sistemas y automatización de procesos empresariales.</p><div class="tags"><span>C#</span><span>Power Automate</span><span>SQL</span></div></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="section">
+    <div class="container two-columns">
+      <div class="panel reveal">
+        <h2>Contacto</h2>
+        <p>¿Quieres contactar conmigo? Puedes escribirme por email, LinkedIn o revisar mis repositorios.</p>
+        <a class="contact-card" href="mailto:joseluistamayodiez@gmail.com"><span>✉️</span><div><strong>Email</strong><small>joseluistamayodiez@gmail.com</small></div></a>
+        <a class="contact-card" href="https://www.linkedin.com/" target="_blank"><span>🔗</span><div><strong>LinkedIn</strong><small>Añade aquí tu URL real</small></div></a>
+        <a class="contact-card" href="https://github.com/" target="_blank"><span>💻</span><div><strong>GitHub</strong><small>Añade aquí tu usuario real</small></div></a>
+      </div>
+      <form class="panel reveal" name="contacto" method="POST" data-netlify="true" action="gracias.html">
+        <input type="hidden" name="form-name" value="contacto" />
+        <h3>Envíame un mensaje</h3>
+        <label>Nombre<input name="nombre" required placeholder="Tu nombre" /></label>
+        <label>Email<input name="email" type="email" required placeholder="tu@email.com" /></label>
+        <label>Mensaje<textarea name="mensaje" rows="5" required placeholder="¿En qué te puedo ayudar?"></textarea></label>
+        <button class="btn primary" type="submit">Enviar mensaje</button>
+      </form>
+    </div>
+  </section>
+
+  <button id="back-to-top" title="Volver arriba">↑</button>
+  <footer>© 2026 · Jose Luis Tamayo Díez · Portfolio</footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
