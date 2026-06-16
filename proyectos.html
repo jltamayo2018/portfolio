@@ -32,16 +32,41 @@
     </header>
     <main class="container page-content">
         <div class="cards three">
-            <article id="tfg" class="card reveal"><img src="images/VR.png" alt="TFG Verdad o Reto">
+            <article id="tfg" class="card reveal">
+                <div class="project-carousel" data-carousel>
+                    <div class="carousel-track">
+                        <img class="carousel-slide active" src="images/VR-1.png"
+                            alt="TFG Verdad o Reto - pantalla principal">
+                        <img class="carousel-slide" src="images/VR-2.png" alt="TFG Verdad o Reto - packs">
+                        <img class="carousel-slide" src="images/VR-3.png" alt="TFG Verdad o Reto - sala online">
+                    </div>
+
+                    <button class="carousel-btn prev" type="button" aria-label="Imagen anterior">‹</button>
+                    <button class="carousel-btn next" type="button" aria-label="Imagen siguiente">›</button>
+                </div>
+
                 <div class="card-body">
                     <h3>TFG: Verdad o Reto</h3>
                     <p>Aplicación web interactiva con Django para crear packs, jugar online y compartir mediante QR.</p>
+
                     <ul>
                         <li>Django, autenticación y modelos relacionales.</li>
                         <li>Salas online con Jitsi y WebSockets.</li>
                         <li>Despliegue web en Render.</li>
                     </ul>
-                    <div class="tags"><span>Django</span><span>Python</span><span>WebSockets</span></div>
+
+                    <div class="tags">
+                        <span>Django</span>
+                        <span>Python</span>
+                        <span>WebSockets</span>
+                    </div>
+
+                    <div class="project-actions">
+                        <a class="btn small primary" href="https://verdadreto.onrender.com" target="_blank">Ver
+                            página</a>
+                        <a class="btn small primary" href="https://github.com/TU_USUARIO/TU_REPO"
+                            target="_blank">Repositorio</a>
+                    </div>
                 </div>
             </article>
             <article class="card reveal"><img src="images/project-dog.svg" alt="Smart Dog Assistant">
