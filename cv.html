@@ -15,31 +15,176 @@
 </head>
 
 <body>
+    <div id="mouse-glow"></div>
+
     <nav class="navbar">
-        <div class="container nav-inner"><a class="brand" href="index.html#inicio">Jose Luis</a><button
-                class="menu-toggle">☰</button>
-            <div class="nav-links"><a href="index.html#inicio">Inicio</a><a href="index.html#sobre-mi">Sobre mí</a><a
-                    href="proyectos.html">Proyectos</a><a href="habilidades.html">Habilidades</a><a class="active"
-                    href="cv.html">CV</a><a href="index.html#contacto">Contacto</a></div>
+        <div class="container nav-inner">
+            <a class="brand" href="index.html#inicio">Jose Luis</a>
+            <button class="menu-toggle">☰</button>
+
+            <div class="nav-links">
+                <a href="index.html#inicio">Inicio</a>
+                <a href="index.html#sobre-mi">Sobre mí</a>
+                <a href="proyectos.html">Proyectos</a>
+                <a href="habilidades.html">Habilidades</a>
+                <a class="active" href="cv.html">CV</a>
+                <a href="index.html#contacto">Contacto</a>
+            </div>
         </div>
     </nav>
-    <main class="container section">
-        <div class="panel cv-panel">
-            <h1>CV</h1>
-            <p>Aquí puedes enlazar tu CV en PDF. Sustituye el archivo <strong>pdfs/cv-jose-luis.pdf</strong> por tu CV
-                real.</p><a class="btn primary" href="pdfs/Jose-Luis-Tamayo-CV.pdf" target="_blank">Descargar CV</a>
-            <h2>Resumen</h2>
-            <p>Ingeniero de Telecomunicaciones con experiencia en desarrollo web, automatización de procesos,
-                programación y gestión de datos.</p>
-            <h2>Experiencia destacada</h2>
-            <ul>
-                <li>Administrador web: WordPress, SEO, contenidos y UX.</li>
-                <li>Prácticas EY: C#, Power Automate, SharePoint, Dataverse y tratamiento de datos.</li>
-                <li>Proyectos personales: Django, FastAPI, React, PostgreSQL e IA local.</li>
-            </ul>
+
+    <header class="page-hero">
+        <canvas id="particles"></canvas>
+        <div class="container">
+            <h1>Currículum Vitae</h1>
+            <p>Mi trayectoria académica y profesional al detalle.</p>
+        </div>
+    </header>
+
+    <main class="container page-content">
+        <div class="cv-layout">
+
+            <aside class="cv-sidebar">
+
+                <div class="panel cv-profile">
+                    <img src="images/miFoto.jpg" alt="Foto de Jose Luis Tamayo">
+                    <p class="cv-role">Ingeniero de Telecomunicaciones</p>
+                    <h2>Jose Luis Tamayo Díez</h2>
+                    <a class="btn primary" href="pdfs/Jose-Luis-Tamayo-CV.pdf" target="_blank">Descargar CV</a>
+                </div>
+
+                <div class="panel">
+                    <h3>Contacto</h3>
+                    <p><strong>Teléfono:</strong><br>+34 658 598 989</p>
+                    <p><strong>Email:</strong><br>joseluistamayodiez@gmail.com</p>
+                    <p><strong>LinkedIn:</strong><br>Jose Luis Tamayo Díez</p>
+                    <p><strong>GitHub:</strong><br>github.com/jltamayo2018</p>
+                    <p><strong>Ubicación:</strong><br>Pozuelo de Alarcón, Madrid</p>
+                </div>
+
+                <div class="panel">
+                    <h3>Idiomas</h3>
+                    <p><strong>Español:</strong> Nativo</p>
+                    <p><strong>Inglés:</strong> C1</p>
+                </div>
+
+                <div class="panel">
+                    <h3>Más información</h3>
+                    <ul>
+                        <li>Carné de conducir</li>
+                        <li>Vehículo propio</li>
+                    </ul>
+                </div>
+
+            </aside>
+
+            <section class="cv-main">
+
+                <div class="panel">
+                    <h3>Perfil profesional</h3>
+                    <p>
+                        Ingeniero de Telecomunicaciones con experiencia en desarrollo web, automatización de procesos,
+                        programación y gestión de datos.
+                    </p>
+                    <p>
+                        Proactivo, adaptable y con alta capacidad de aprendizaje, busco una oportunidad para
+                        desarrollarme en el sector tecnológico y seguir creciendo profesional y personalmente.
+                    </p>
+                </div>
+
+                <div class="panel">
+                    <h3>Formación académica</h3>
+
+                    <div class="cv-item">
+                        <h4>Grado en Ingeniería Telemática</h4>
+                        <p>Universidad Rey Juan Carlos</p>
+                    </div>
+
+                    <div class="cv-item">
+                        <h4>Bachillerato Tecnológico</h4>
+                        <p>IES Gerardo Diego</p>
+                    </div>
+                </div>
+
+                <div class="panel">
+                    <h3>Experiencia laboral</h3>
+
+                    <div class="cv-item">
+                        <h4>Administrador Web - Nails&Co</h4>
+                        <small>Febrero 2025 - Actualidad</small>
+                        <p>
+                            Gestión y mantenimiento de la página web corporativa utilizando WordPress, incluyendo la
+                            actualización de contenidos, optimización SEO y resolución de incidencias. Coordinación con
+                            el servicio de hosting y soporte en la mejora del rendimiento y la experiencia de usuario.
+                        </p>
+                    </div>
+
+                    <div class="cv-item">
+                        <h4>Prácticas - EY | Tax Technology & Transformations</h4>
+                        <small>Noviembre 2024 - Mayo 2025</small>
+                        <p>
+                            Automatización de procesos para clientes mediante desarrollo en C# y uso de Power Automate,
+                            incluyendo recepción de datos vía SFTP, transformación de facturas y envío al SII. Gestión y
+                            actualización de bases de datos mediante soluciones en Power Apps y SharePoint, así como
+                            elaboración de documentación técnica.
+                        </p>
+                    </div>
+
+                    <div class="cv-item compact">
+                        <h4>Profesor particular</h4>
+                        <small>2020 - Actualidad</small>
+                    </div>
+
+                    <div class="cv-item compact">
+                        <h4>Recepcionista</h4>
+                        <small>2023 - 2024</small>
+                    </div>
+
+                    <div class="cv-item compact">
+                        <h4>Socorrista</h4>
+                        <small>2019 - 2021</small>
+                    </div>
+                </div>
+
+                <div class="panel">
+                    <h3>Competencias técnicas</h3>
+
+                    <div class="cv-skills">
+                        <div>
+                            <h4>Lenguajes</h4>
+                            <p>Python, C, C#</p>
+                        </div>
+
+                        <div>
+                            <h4>Web</h4>
+                            <p>HTML, CSS, JavaScript</p>
+                        </div>
+
+                        <div>
+                            <h4>Frameworks</h4>
+                            <p>Django</p>
+                        </div>
+
+                        <div>
+                            <h4>Herramientas</h4>
+                            <p>Git, Power Automate, Office 365</p>
+                        </div>
+
+                        <div>
+                            <h4>CMS</h4>
+                            <p>WordPress</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
         </div>
     </main>
+
+    <button id="back-to-top">↑</button>
+
     <footer>© 2026 · Jose Luis Tamayo Díez · Portfolio</footer>
+
     <script src="js/main.js"></script>
 </body>
 

@@ -625,3 +625,134 @@ footer {
   flex-wrap: wrap;
   margin-top: 1.2rem;
 }
+
+/* =========================
+   CV PAGE
+========================= */
+
+.cv-layout {
+    display: grid;
+    grid-template-columns: 340px 1fr;
+    gap: 2rem;
+    align-items: start;
+}
+
+.cv-sidebar,
+.cv-main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.cv-profile {
+    text-align: center;
+}
+
+.cv-profile img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid var(--accent);
+    margin-bottom: 1rem;
+}
+
+.cv-role {
+    color: var(--accent);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .85rem;
+    margin-bottom: .5rem;
+}
+
+.cv-profile h2 {
+    margin: 0 0 1rem;
+    font-size: 1.6rem;
+}
+
+.cv-profile h2::after {
+    display: none;
+}
+
+.cv-item {
+    padding-bottom: 1.2rem;
+    margin-bottom: 1.2rem;
+    border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.cv-item:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.cv-item h4 {
+    color: var(--accent);
+    margin: 0 0 .35rem;
+}
+
+.cv-item small {
+    display: block;
+    color: var(--muted);
+    font-weight: 700;
+    margin-bottom: .75rem;
+}
+
+.cv-item.compact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cv-item.compact h4,
+.cv-item.compact small {
+    margin: 0;
+}
+
+.cv-skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+}
+
+.cv-skills h4 {
+    color: var(--accent);
+    margin-bottom: .35rem;
+}
+
+.cv-skills p {
+    margin: 0;
+}
+
+.cv-main h3,
+.cv-sidebar h3 {
+    margin-top: 0;
+}
+
+.cv-main h3::after,
+.cv-sidebar h3::after {
+    width: 100%;
+}
+
+@media(max-width: 900px) {
+
+    .cv-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .cv-skills {
+        grid-template-columns: 1fr;
+    }
+
+    .cv-item.compact {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: .3rem;
+    }
+
+    .cv-profile img {
+        width: 150px;
+        height: 150px;
+    }
+}
