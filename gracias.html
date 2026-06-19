@@ -5,16 +5,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gracias | Jose Luis Tamayo</title>
+    <meta name="description" content="Mensaje enviado correctamente a Jose Luis Tamayo Díez.">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <main class="container section">
-        <div class="panel">
-            <h1>Gracias por tu mensaje</h1>
-            <p>Te responderé lo antes posible.</p><a class="btn primary" href="index.html">Volver al inicio</a>
+    <div id="mouse-glow"></div>
+
+    <nav class="navbar">
+        <div class="container nav-inner">
+            <a class="brand" href="index.html#inicio">Jose Luis</a>
+            <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+
+            <div class="nav-links">
+                <a href="index.html#inicio">Inicio</a>
+                <a href="index.html#sobre-mi">Sobre mí</a>
+                <a href="proyectos.html">Proyectos</a>
+                <a href="habilidades.html">Habilidades</a>
+                <a href="cv.html">CV</a>
+                <a href="index.html#contacto">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-hero">
+        <canvas id="particles"></canvas>
+        <div class="container">
+            <h1>Mensaje enviado</h1>
+            <p>Gracias por contactar conmigo.</p>
+        </div>
+    </header>
+
+    <main class="container page-content">
+        <div class="panel thanks-panel reveal">
+            <div class="thanks-icon">✓</div>
+            <h2>Gracias por tu mensaje</h2>
+            <p>
+                He recibido tu mensaje correctamente. Te responderé lo antes posible.
+            </p>
+
+            <div class="hero-actions">
+                <a class="btn primary" href="index.html">Volver al inicio</a>
+            </div>
         </div>
     </main>
+
+    <footer>© 2026 · Jose Luis Tamayo Díez · Portfolio</footer>
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>

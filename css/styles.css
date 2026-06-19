@@ -756,3 +756,42 @@ footer {
         height: 150px;
     }
 }
+
+.cv-contact h3 {
+    padding-bottom: .8rem;
+    border-bottom: 1px solid rgba(255, 255, 255, .08);
+    margin-bottom: 1.2rem;
+}
+
+.cv-contact-item {
+    display: flex;
+    align-items: center;
+    gap: .9rem;
+    color: var(--muted);
+    margin-bottom: 1rem;
+}
+
+.cv-contact-item:last-child {
+    margin-bottom: 0;
+}
+
+.cv-contact-item span {
+    color: var(--accent);
+    font-size: 1.25rem;
+    width: 24px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.cv-contact-item p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+.cv-contact-item:hover p {
+    color: var(--txt);
+}
+
+.cert-btn {
+    margin-top: 18px;
+}
