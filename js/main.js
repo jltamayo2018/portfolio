@@ -9,7 +9,12 @@ document.querySelectorAll('.nav-links a').forEach(a =>
   a.addEventListener('click', () => links?.classList.remove('open'))
 );
 
-const text = 'Ingeniería Telemática · Desarrollo Web · Automatización · Datos · IA';
+// Detectar el idioma automáticamente por la etiqueta <html>
+const isEnglish = document.documentElement.lang === 'en';
+const text = isEnglish
+  ? 'Telematics Engineering · Web Development · Automation · Data · AI'
+  : 'Ingeniería Telemática · Desarrollo Web · Automatización · Datos · IA';
+
 const type = document.getElementById('typewriter');
 let i = 0;
 

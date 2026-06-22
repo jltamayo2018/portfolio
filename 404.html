@@ -4,8 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gracias | Jose Luis Tamayo</title>
-    <meta name="description" content="Mensaje enviado correctamente a Jose Luis Tamayo Díez.">
+    <title>Página no encontrada | Jose Luis Tamayo</title>
+    <meta name="description" content="La página que buscas no existe en el portfolio de Jose Luis Tamayo Díez.">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Jose Luis Tamayo Díez | Portfolio" />
+    <meta property="og:description"
+        content="Ingeniero de Telecomunicaciones, desarrollo web, automatización y datos." />
+    <meta property="og:image" content="https://tusitio.netlify.app/images/portada-compartir.jpg" />
+    <meta property="og:url" content="https://joseluistamayo.netlify.app" />
+
     <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,11 +22,26 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 
-    <meta property="og:title" content="Jose Luis Tamayo Díez | Portfolio" />
-    <meta property="og:description"
-        content="Ingeniero de Telecomunicaciones, desarrollo web, automatización y datos." />
-    <meta property="og:image" content="https://tusitio.netlify.app/images/portada-compartir.jpg" />
-    <meta property="og:url" content="https://joseluistamayo.netlify.app" />
+    <style>
+        .error-panel {
+            text-align: center;
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        .error-icon {
+            font-size: 4rem;
+            line-height: 1;
+            margin-bottom: 1rem;
+            display: inline-block;
+            filter: drop-shadow(0 0 20px rgba(240, 61, 134, 0.4));
+        }
+
+        .center-actions {
+            justify-content: center;
+            margin-top: 2rem;
+        }
+    </style>
 </head>
 
 <body>
@@ -37,31 +60,27 @@
                 <a href="cv.html">CV</a>
                 <a href="index.html#contacto">Contacto</a>
             </div>
-
-            <div class="lang-switch">
-                <span class="active" title="Español">🇪🇸</span>
-                <a href="gracias-en.html" title="Switch to English">🇬🇧</a>
-            </div>
         </div>
     </nav>
 
     <header class="page-hero">
         <canvas id="particles"></canvas>
         <div class="container">
-            <h1>Mensaje enviado</h1>
-            <p>Gracias por contactar conmigo.</p>
+            <h1>Error 404</h1>
+            <p>Parece que nos hemos perdido en el ciberespacio.</p>
         </div>
     </header>
 
     <main class="container page-content">
-        <div class="panel thanks-panel reveal">
-            <div class="thanks-icon">✓</div>
-            <h2>Gracias por tu mensaje</h2>
+        <div class="panel error-panel reveal">
+            <div class="error-icon">🚀</div>
+            <h2>Página no encontrada</h2>
             <p>
-                He recibido tu mensaje correctamente. Te responderé lo antes posible.
+                La URL que has introducido no existe o el contenido ha sido movido de sitio.
+                No te preocupes, puedes volver a la página principal y seguir explorando mi portfolio.
             </p>
 
-            <div class="hero-actions">
+            <div class="hero-actions center-actions">
                 <a class="btn primary" href="index.html">Volver al inicio</a>
             </div>
         </div>

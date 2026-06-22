@@ -577,53 +577,53 @@ footer {
 }
 
 .project-carousel {
-  position: relative;
-  width: 100%;
-  height: 205px;
-  overflow: hidden;
-  background: #eaf1ff;
+    position: relative;
+    width: 100%;
+    height: 205px;
+    overflow: hidden;
+    background: #eaf1ff;
 }
 
 .project-carousel .carousel-slide {
-  display: none;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .project-carousel .carousel-slide.active {
-  display: block;
+    display: block;
 }
 
 .carousel-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 5;
-  width: 42px;
-  height: 42px;
-  border: 0;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, .65);
-  color: #0d1729;
-  font-size: 2rem;
-  line-height: 1;
-  cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    width: 42px;
+    height: 42px;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .65);
+    color: #0d1729;
+    font-size: 2rem;
+    line-height: 1;
+    cursor: pointer;
 }
 
 .carousel-btn.prev {
-  left: 10px;
+    left: 10px;
 }
 
 .carousel-btn.next {
-  right: 10px;
+    right: 10px;
 }
 
 .project-actions {
-  display: flex;
-  gap: .6rem;
-  flex-wrap: wrap;
-  margin-top: 1.2rem;
+    display: flex;
+    gap: .6rem;
+    flex-wrap: wrap;
+    margin-top: 1.2rem;
 }
 
 /* =========================
@@ -678,7 +678,7 @@ footer {
 .cv-item {
     padding-bottom: 1.2rem;
     margin-bottom: 1.2rem;
-    border-bottom: 1px solid rgba(255,255,255,.08);
+    border-bottom: 1px solid rgba(255, 255, 255, .08);
 }
 
 .cv-item:last-child {
@@ -794,4 +794,63 @@ footer {
 
 .cert-btn {
     margin-top: 18px;
+}
+
+/* =========================
+   LANGUAGE SWITCHER
+========================= */
+.lang-switch {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 0.5rem;
+    padding-left: 1rem;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.lang-switch a,
+.lang-switch span {
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 4px;
+    transition: 0.2s;
+    cursor: pointer;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+    filter: grayscale(100%);
+}
+
+.lang-switch a:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.lang-switch span.active {
+    opacity: 1;
+    filter: grayscale(0%);
+    background: rgba(240, 61, 134, 0.1);
+    box-shadow: inset 0 0 0 1px rgba(240, 61, 134, 0.3);
+}
+
+.lang-switch a::after,
+.lang-switch span::after {
+    display: none !important;
+}
+
+@media(max-width:900px) {
+    .lang-switch {
+        margin-left: 0;
+        padding-left: 0;
+        border-left: none;
+        margin-top: 1rem;
+        padding-top: 1rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        width: 100%;
+        justify-content: flex-start;
+    }
 }
