@@ -8,15 +8,16 @@
     <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
+    <link rel="preload"
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
-        rel="stylesheet">
+        as="style" crossorigin>
+    
     <link rel="stylesheet" href="css/styles.css">
 
     <meta property="og:title" content="Jose Luis Tamayo Díez | Portfolio" />
     <meta property="og:description"
         content="Ingeniero de Telecomunicaciones, desarrollo web, automatización y datos." />
-    <meta property="og:image" content="https://tusitio.netlify.app/images/portada-compartir.jpg" />
+    <meta property="og:image" content="https://joseluistamayo.netlify.app/images/portada-compartir.webp" />
     <meta property="og:url" content="https://joseluistamayo.netlify.app" />
 </head>
 
@@ -45,7 +46,7 @@
     <main class="container page-content">
         <div class="cards three">
             <article class="card reveal">
-                <img src="images/nailsco.jpg" alt="Web administration">
+                <img src="images/nailsco.webp" alt="Web administration" loading="lazy">
                 <div class="card-body">
                     <h3>Web Administrator & SEO</h3>
                     <p>Comprehensive management and optimization of a corporate website aimed at customer acquisition
@@ -64,11 +65,12 @@
                         <span>Web Performance</span>
                     </div>
                     <div class="project-actions">
-                        <a class="btn small primary" href="https://nailsco.es/" target="_blank">View page</a>
+                        <a class="btn small primary" href="https://nailsco.es/" target="_blank"
+                            rel="noopener noreferrer">View page</a>
                     </div>
                 </div>
             </article>
-            <article class="card reveal"><img src="images/ey.png" alt="EY Automation">
+            <article class="card reveal"><img src="images/ey.webp" alt="EY Automation" loading="lazy">
                 <div class="card-body">
                     <h3>Process Automation</h3>
                     <p>Development of solutions to automate workflows and process data in enterprise environments.</p>
@@ -88,10 +90,10 @@
             </article>
             <article id="tfg" class="card reveal">
                 <div class="project-carousel" data-carousel>
-                    <img class="carousel-slide active" src="images/VR-1.png" alt="Truth or Dare - home">
-                    <img class="carousel-slide" src="images/VR-2.png" alt="Truth or Dare - packs">
-                    <img class="carousel-slide" src="images/VR-3.png" alt="Truth or Dare - game">
-                    <img class="carousel-slide" src="images/VR-4.png" alt="Truth or Dare - online">
+                    <img class="carousel-slide active" src="images/VR-1.webp" alt="Truth or Dare - home" loading="lazy">
+                    <img class="carousel-slide" src="images/VR-2.webp" alt="Truth or Dare - packs" loading="lazy">
+                    <img class="carousel-slide" src="images/VR-3.webp" alt="Truth or Dare - game" loading="lazy">
+                    <img class="carousel-slide" src="images/VR-4.webp" alt="Truth or Dare - online" loading="lazy">
 
                     <button class="carousel-btn prev" type="button">‹</button>
                     <button class="carousel-btn next" type="button">›</button>
@@ -118,15 +120,16 @@
                     </div>
 
                     <div class="project-actions">
-                        <a class="btn small primary" href="https://verdadreto.onrender.com/" target="_blank">View
+                        <a class="btn small primary" href="https://verdadreto.onrender.com/" target="_blank"
+                            rel="noopener noreferrer">View
                             page</a>
                         <a class="btn small primary" href="https://github.com/jltamayo2018/tfg-verdad-reto"
-                            target="_blank">Repository</a>
+                            target="_blank" rel="noopener noreferrer">Repository</a>
                     </div>
                 </div>
             </article>
             <article class="card reveal">
-                <img src="images/dashboard.png" alt="APIs">
+                <img src="images/dashboard.webp" alt="APIs" loading="lazy">
                 <div class="card-body">
                     <h3>TikTok Analytics Dashboard</h3>
                     <p>Interactive dashboard developed in Power BI to analyze TikTok content performance through data
@@ -146,12 +149,12 @@
                     </div>
                     <div class="project-actions">
                         <a class="btn small primary" href="https://github.com/jltamayo2018/powerbi-tiktok-analysis"
-                            target="_blank">Repository</a>
+                            target="_blank" rel="noopener noreferrer">Repository</a>
                     </div>
                 </div>
             </article>
             <article class="card reveal">
-                <img src="images/qr.png" alt="QR Generator">
+                <img src="images/qr.webp" alt="QR Generator" loading="lazy">
                 <div class="card-body">
                     <h3>QR Generator</h3>
                     <p>Tool developed in Python to generate PNG QR codes from any URL quickly and easily.</p>
@@ -168,14 +171,14 @@
                     </div>
 
                     <div class="project-actions">
-                        <a class="btn small primary" href="https://github.com/jltamayo2018/qr-generator"
-                            target="_blank">Repository
+                        <a class="btn small primary" href="https://github.com/jltamayo2018/qr-generator" target="_blank"
+                            rel="noopener noreferrer">Repository
                         </a>
                     </div>
                 </div>
             </article>
             <article class="card reveal">
-                <img src="images/teveo.png" alt="TeVeo">
+                <img src="images/teveo.webp" alt="TeVeo" loading="lazy">
                 <div class="card-body">
                     <h3>TeVeo</h3>
                     <p>Web application developed with Django to view public cameras and allow user interaction through
@@ -198,13 +201,13 @@
                     </div>
 
                     <div class="project-actions">
-                        <a class="btn small primary" href="https://github.com/jltamayo2018/TeVeo"
-                            target="_blank">Repository
+                        <a class="btn small primary" href="https://github.com/jltamayo2018/TeVeo" target="_blank"
+                            rel="noopener noreferrer">Repository
                         </a>
                     </div>
                 </div>
             </article>
-            <article class="card reveal"><img src="images/project-dog.svg" alt="Smart Dog Assistant">
+            <article class="card reveal"><img src="images/project-dog.svg" alt="Smart Dog Assistant" loading="lazy">
                 <div class="card-body">
                     <h3>Smart Dog Assistant</h3>
                     <p>In development... I won't give many hints about this project 😉</p>
