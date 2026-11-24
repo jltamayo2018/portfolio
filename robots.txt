@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://joseluistamayo.netlify.app/sitemap.xml

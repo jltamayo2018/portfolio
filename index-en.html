@@ -13,14 +13,23 @@
     <link rel="preload"
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
         as="style" crossorigin>
-    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/styles.css" />
 
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_GB" />
     <meta property="og:title" content="Jose Luis Tamayo Díez | Portfolio" />
-    <meta property="og:description"
-        content="Ingeniero de Telecomunicaciones, desarrollo web, automatización y datos." />
-    <meta property="og:image" content="https://joseluistamayo.netlify.app/images/portada-compartir.webp" />
-    <meta property="og:url" content="https://joseluistamayo.netlify.app" />
+    <meta property="og:description" content="Telecommunications Engineer: web development, automation and data." />
+    <meta property="og:image" content="https://joseluistamayo.netlify.app/images/portada-compartir.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="https://joseluistamayo.netlify.app/index-en.html" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://joseluistamayo.netlify.app/index-en.html" />
+    <link rel="alternate" hreflang="es" href="https://joseluistamayo.netlify.app/" />
+    <link rel="alternate" hreflang="en" href="https://joseluistamayo.netlify.app/index-en.html" />
+    <link rel="alternate" hreflang="x-default" href="https://joseluistamayo.netlify.app/" />
 </head>
 
 <body>
@@ -28,7 +37,7 @@
     <nav class="navbar">
         <div class="container nav-inner">
             <a class="brand" href="index-en.html#home">Jose Luis</a>
-            <button class="menu-toggle" aria-label="Open menu">☰</button>
+            <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
             <div class="nav-links">
                 <a class="active" href="index-en.html#home">Home</a>
                 <a href="index-en.html#about">About</a>
@@ -70,11 +79,15 @@
             <div class="reveal">
                 <h2>About me</h2>
                 <p class="lead">Telecommunications Engineer with experience in <span>web development, process
-                        automation, programming, and data management</span>.</p>
-                <p>I am currently seeking an opportunity to continue growing in the tech sector. I consider myself a
-                    proactive, adaptable person with a high capacity for learning.</p>
-                <p>I have worked in web administration with WordPress, SEO, and user experience, as well as in data
-                    automation and integration during my internship at EY.</p>
+                        automation, programming, and systems and data integration</span>.</p>
+                <p>I currently work as an Analyst at Deloitte within the Technology &amp; Transformation practice,
+                    contributing to automation, digital transformation, and technology projects within the Microsoft
+                    ecosystem.</p>
+                <p>I also have experience in web administration and development, SEO, digital advertising, and online
+                    presence optimization for businesses, as well as process automation and data integration from my
+                    previous experience at EY.</p>
+                <p>I am passionate about technology, continuous learning, and developing solutions that deliver real
+                    value, improve efficiency, and solve problems.</p>
                 <a class="btn secondary" href="cv-en.html">View my detailed resume</a>
             </div>
             <aside class="panel reveal">
@@ -83,7 +96,7 @@
                     <div><small>Location</small><strong>Madrid, Spain</strong></div>
                 </div>
                 <div class="info-item"><span>💼</span>
-                    <div><small>Profile</small><strong>Junior in Tech</strong></div>
+                    <div><small>Profile</small><strong>Analyst · Deloitte</strong></div>
                 </div>
                 <div class="info-item"><span>⚙️</span>
                     <div><small>Interests</small><strong>Web, AI, Automation, Data</strong></div>
@@ -201,6 +214,30 @@
                         </a>
                     </div>
                 </article>
+                <article class="card reveal">
+                    <img src="images/cert-masterclass-wordpress-ia.webp" alt="WordPress with AI Masterclass" loading="lazy">
+
+                    <div class="card-body">
+                        <h3>WordPress with AI Masterclass</h3>
+
+                        <p>
+                            Raiola Networks certificate in applying artificial intelligence
+                            to WordPress for building and managing websites.
+                        </p>
+
+                        <div class="tags">
+                            <span>Raiola Networks</span>
+                            <span>WordPress</span>
+                            <span>AI</span>
+                            <span>Web Development</span>
+                        </div>
+
+                        <a class="btn small primary cert-btn" href="pdfs/masterclass-wordpress-con-ia.pdf"
+                            target="_blank" rel="noopener noreferrer">
+                            View certificate
+                        </a>
+                    </div>
+                </article>
             </div>
         </div>
     </section>
@@ -234,7 +271,7 @@
         </div>
     </section>
 
-    <button id="back-to-top" title="Back to top">↑</button>
+    <button id="back-to-top" type="button" title="Back to top" aria-label="Back to top">↑</button>
     <footer>© 2026 · Jose Luis Tamayo Díez · Portfolio</footer>
     <script src="js/main.js"></script>
 </body>

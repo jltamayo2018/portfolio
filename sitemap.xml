@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://joseluistamayo.netlify.app/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://joseluistamayo.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joseluistamayo.netlify.app/index-en.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://joseluistamayo.netlify.app/" />
+  </url>
+  <url>
+    <loc>https://joseluistamayo.netlify.app/index-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://joseluistamayo.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joseluistamayo.netlify.app/index-en.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://joseluistamayo.netlify.app/" />
+  </url>
+  <url>
+    <loc>https://joseluistamayo.netlify.app/proyectos.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://joseluistamayo.netlify.app/proyectos.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joseluistamayo.netlify.app/proyectos-en.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://joseluistamayo.netlify.app/proyectos.html" />
+  </url>
+  <url>
+    <loc>https://joseluistamayo.netlify.app/proyectos-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://joseluistamayo.netlify.app/proyectos.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joseluistamayo.netlify.app/proyectos-en.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://joseluistamayo.netlify.app/proyectos.html" />
+  </url>
+  <url>
+    <loc>https://joseluistamayo.netlify.app/habilidades.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://joseluistamayo.netlify.app/habilidades.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joseluistamayo.netlify.app/habilidades-en.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://joseluistamayo.netlify.app/habilidades.html" />
+  </url>
+  <url>
+    <loc>https://joseluistamayo.netlify.app/habilidades-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://joseluistamayo.netlify.app/habilidades.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joseluistamayo.netlify.app/habilidades-en.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://joseluistamayo.netlify.app/habilidades.html" />
+  </url>
+  <url>
+    <loc>https://joseluistamayo.netlify.app/cv.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://joseluistamayo.netlify.app/cv.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joseluistamayo.netlify.app/cv-en.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://joseluistamayo.netlify.app/cv.html" />
+  </url>
+  <url>
+    <loc>https://joseluistamayo.netlify.app/cv-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://joseluistamayo.netlify.app/cv.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://joseluistamayo.netlify.app/cv-en.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://joseluistamayo.netlify.app/cv.html" />
+  </url>
+</urlset>

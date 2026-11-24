@@ -38,24 +38,43 @@ portfolio/
 ├── css/
 │   └── styles.css
 │
-├── images/
-│   ├── ...
+├── images/                      # imágenes .webp, favicon y portada-compartir.jpg (Open Graph)
 │
 ├── js/
 │   └── main.js
 │
 ├── pdfs/
 │   ├── Jose-Luis-Tamayo-CV.pdf
-│   └── IBMDesign.pdf
+│   ├── Jose-Luis-Tamayo-CV-en.pdf
+│   ├── IBMDesign.pdf
+│   ├── domina_la_ia_con_gemini.pdf
+│   ├── iniciacion-al-desarrollo-con-ia.pdf
+│   └── masterclass-wordpress-con-ia.pdf
 │
-├── index.html
-├── proyectos.html
-├── habilidades.html
-├── cv.html
-├── gracias.html
+├── index.html / index-en.html
+├── proyectos.html / proyectos-en.html
+├── habilidades.html / habilidades-en.html
+├── cv.html / cv-en.html
+├── gracias.html / gracias-en.html
+├── 404.html
+├── sitemap.xml
+├── robots.txt
 ├── netlify.toml
+├── AGENTS.md
 └── README.md
 ```
+
+El sitio es bilingüe: el español es la versión principal y cada página tiene su equivalente `-en.html`. Cada página declara su `canonical` y sus alternativas `hreflang`, que también figuran en `sitemap.xml`.
+
+---
+
+## Ejecución en local
+
+```bash
+python -m http.server 8000
+```
+
+Y abre `http://localhost:8000/`.
 
 ---
 

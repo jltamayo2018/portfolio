@@ -18,10 +18,19 @@
     rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css" />
 
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_ES" />
   <meta property="og:title" content="Jose Luis Tamayo Díez | Portfolio" />
-  <meta property="og:description" content="Ingeniero de Telecomunicaciones, desarrollo web, automatización y datos." />
-  <meta property="og:image" content="https://joseluistamayo.netlify.app/images/portada-compartir.webp" />
-  <meta property="og:url" content="https://joseluistamayo.netlify.app" />
+  <meta property="og:description" content="Ingeniero de Telecomunicaciones: desarrollo web, automatización y datos." />
+  <meta property="og:image" content="https://joseluistamayo.netlify.app/images/portada-compartir.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:url" content="https://joseluistamayo.netlify.app/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://joseluistamayo.netlify.app/" />
+  <link rel="alternate" hreflang="es" href="https://joseluistamayo.netlify.app/" />
+  <link rel="alternate" hreflang="en" href="https://joseluistamayo.netlify.app/index-en.html" />
+  <link rel="alternate" hreflang="x-default" href="https://joseluistamayo.netlify.app/" />
 </head>
 
 <body>
@@ -29,7 +38,7 @@
   <nav class="navbar">
     <div class="container nav-inner">
       <a class="brand" href="index.html#inicio">Jose Luis</a>
-      <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">☰</button>
       <div class="nav-links">
         <a class="active" href="index.html#inicio">Inicio</a>
         <a href="index.html#sobre-mi">Sobre mí</a>
@@ -71,11 +80,14 @@
       <div class="reveal">
         <h2>Sobre mí</h2>
         <p class="lead">Ingeniero de Telecomunicaciones con experiencia en <span>desarrollo web, automatización de
-            procesos, programación y gestión de datos</span>.</p>
-        <p>Actualmente busco una oportunidad para seguir creciendo en el sector tecnológico. Me considero una persona
-          proactiva, adaptable y con alta capacidad de aprendizaje.</p>
-        <p>He trabajado en administración web con WordPress, SEO y experiencia de usuario, y también en automatización e
-          integración de datos durante mis prácticas en EY.</p>
+            procesos, programación e integración de sistemas y datos</span>.</p>
+        <p>Actualmente trabajo como Analyst en Deloitte, dentro del área de Technology &amp; Transformation, participando
+          en proyectos de automatización, transformación digital y soluciones tecnológicas en el ecosistema Microsoft.</p>
+        <p>Además, cuento con experiencia en administración y desarrollo web, posicionamiento SEO, publicidad digital y
+          optimización de la presencia online de empresas, así como en automatización de procesos e integración de datos
+          durante mi etapa profesional en EY.</p>
+        <p>Me apasiona la tecnología, el aprendizaje continuo y el desarrollo de soluciones que aporten valor real,
+          mejoren la eficiencia y resuelvan problemas.</p>
         <a class="btn secondary" href="cv.html">Ver mi currículum detallado</a>
       </div>
       <aside class="panel reveal">
@@ -84,7 +96,7 @@
           <div><small>Ubicación</small><strong>Madrid, España</strong></div>
         </div>
         <div class="info-item"><span>💼</span>
-          <div><small>Perfil</small><strong>Junior tecnológico</strong></div>
+          <div><small>Perfil</small><strong>Analyst · Deloitte</strong></div>
         </div>
         <div class="info-item"><span>⚙️</span>
           <div><small>Intereses</small><strong>Web, IA, Automatización, Datos</strong></div>
@@ -199,6 +211,31 @@
             </a>
           </div>
         </article>
+        <article class="card reveal">
+          <img src="images/cert-masterclass-wordpress-ia.webp" alt="Masterclass de WordPress con IA" loading="lazy">
+
+          <div class="card-body">
+            <h3>Masterclass de WordPress con IA</h3>
+
+            <p>
+              Certificado de Raiola Networks que acredita la formación en el uso de
+              inteligencia artificial aplicada a WordPress para la creación y gestión
+              de sitios web.
+            </p>
+
+            <div class="tags">
+              <span>Raiola Networks</span>
+              <span>WordPress</span>
+              <span>IA</span>
+              <span>Desarrollo web</span>
+            </div>
+
+            <a class="btn small primary cert-btn" href="pdfs/masterclass-wordpress-con-ia.pdf" target="_blank"
+              rel="noopener noreferrer">
+              Ver certificado
+            </a>
+          </div>
+        </article>
       </div>
     </div>
   </section>
@@ -232,7 +269,7 @@
     </div>
   </section>
 
-  <button id="back-to-top" title="Volver arriba">↑</button>
+  <button id="back-to-top" type="button" title="Volver arriba" aria-label="Volver arriba">↑</button>
   <footer>© 2026 · Jose Luis Tamayo Díez · Portfolio</footer>
   <script src="js/main.js"></script>
 </body>
